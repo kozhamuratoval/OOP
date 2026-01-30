@@ -6,7 +6,6 @@ public class GradeCalculator {
 
         System.out.print("Enter score: ");
         int score = sc.nextInt();
-
         if (score >= 95) System.out.println("Grade: A");
         else if (score >= 90) System.out.println("Grade: A-");
         else if (score >= 85) System.out.println("Grade: B+");

@@ -16,7 +16,7 @@ public class QuadraticRoots {
         double D = b * b - 4 * a * c;
 
         if (D < 0) {
-            System.out.println("Error: Discriminant is negative. No real roots.");
+            System.out.println(" Discriminant is negative. No real roots.");
         } else {
             double root1 = (-b + Math.sqrt(D)) / (2 * a);
             double root2 = (-b - Math.sqrt(D)) / (2 * a);
